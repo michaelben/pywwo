@@ -5,18 +5,14 @@ Python wrapper library for [World Weather Online API](http://www.worldweatheronl
 
 How to use
 ---------------
-'''python
->>> from pywwo import *
->>> setKey('<your_key>', 'free')
->>> w=LocalWeather('london')
->>> w.data.current_condition.temp_C
->>> w=LocalWeather('sdfasdgasdga')
-Unable to find any matching weather location to the query submitted!
-'''
+> >>> from pywwo import *
+> >>> setKey('<your_key>', 'free')
+> >>> w=LocalWeather('london')
+> >>> w.data.current_condition.temp_C
+> >>> w=LocalWeather('sdfasdgasdga')
+> Unable to find any matching weather location to the query submitted!
 
 For more usage, see test run inside the script
-'''
->>> python pywwo.py
-'''
+> >>> python pywwo.py
 
 see test result inside the script.
