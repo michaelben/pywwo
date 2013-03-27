@@ -1,0 +1,29 @@
+    >>> 
+    10
+    Patchy light rain
+    http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0017_cloudy_with_light_rain.png
+
+    3
+    Today: 2013-03-23, Max ℃: 3, Min ℃: -3, Light snow
+
+    Date: 2013-03-23, Max ℃: 3, Min ℃: -3, Light snow
+    Date: 2013-03-24, Max ℃: 0, Min ℃: -3, Light snow
+    Date: 2013-03-25, Max ℃: 2, Min ℃: -3, Partly Cloudy 
+
+    weather = None [ObjectifiedElement]
+        date = '2013-03-24' [StringElement]
+        tempMaxC = 0 [IntElement]
+        tempMaxF = 33 [IntElement]
+        tempMinC = -3 [IntElement]
+        tempMinF = 26 [IntElement]
+        windspeedMiles = 18 [IntElement]
+        windspeedKmph = 29 [IntElement]
+        winddirection = 'ENE' [StringElement]
+        winddir16Point = 'ENE' [StringElement]
+        winddirDegree = 69 [IntElement]
+        weatherCode = 326 [IntElement]
+        weatherIconUrl = 'http://www.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0011_light_snow_showers.png' [StringElement]
+        weatherDesc = 'Light snow' [StringElement]
+        precipMM = 1.1 [FloatElement]
+
+    The key is not valid.
