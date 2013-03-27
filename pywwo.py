@@ -119,6 +119,9 @@ class WWOAPI(object):
         # if the key is invalid it redirects to another web page
         if response.startswith("<?xml "):
             self.data = objectify.fromstring(response)
+            if self.data is not None and hasattr(self.data, 'error') and self.data.error != False:
+                print self.data.error.msg
+                self.data = False
         else:
             self.data = False
 
