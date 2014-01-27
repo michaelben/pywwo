@@ -17,8 +17,6 @@ w=LocalWeather('sdfasdgasdga')
 For more test cases, see test run inside the script
 > python pywwo.py
 
-see test result inside the script.
-
 Feature
 ---------
 1. lxml.objectifiy
